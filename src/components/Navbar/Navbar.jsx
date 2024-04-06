@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
@@ -18,29 +19,33 @@ export const Navbar = () => {
             setMenu("store");
           }}
         >
-          Store {menu === "store" ? <hr /> : <></>}
+          <Link to="/">Store</Link> {menu === "store" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("mens")}>
-          Men {menu === "mens" ? <hr /> : <></>}
+          <Link to="/mens">Men</Link> {menu === "mens" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("womens");
           }}
         >
-          Women {menu === "womens" ? <hr /> : <></>}
+          <Link to="/womens">Women</Link> {menu === "womens" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("kids");
           }}
         >
-          Kids {menu === "kids" ? <hr /> : <></>}
+          <Link to="/kids">Kids</Link> {menu === "kids" ? <hr /> : <></>}
         </li>
       </div>
       <div className="nav-login-cart">
-        <button>Login</button>
-        <img src={cart_icon} alt="" />
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+        <Link to="/cart">
+          <img src={cart_icon} alt="" />
+        </Link>
         <div className="nav-cart-count">0</div>
       </div>
     </div>

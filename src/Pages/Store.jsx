@@ -1,6 +1,12 @@
 import React from "react";
+import Mainview from "../Components/Mainview/Mainview";
 
 export const Store = () => {
-  return <div>Store</div>;
+  console.log("STORE");
+  return (
+    <div>
+      <Mainview />
+    </div>
+  );
 };
 export default Store;
