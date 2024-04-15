@@ -14,6 +14,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar />
+
         <Switch>
           <Route path="/" component={Store} />
           <Route path="/mens" component={MenPage} />

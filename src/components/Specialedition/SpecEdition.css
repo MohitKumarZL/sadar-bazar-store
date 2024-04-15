@@ -1,0 +1,44 @@
+.specedition {
+  display: flex;
+  margin: 50px 45px;
+  padding: 90px 70px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(247, 159, 87)
+  );
+}
+
+.specialedition h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: solid black;
+}
+.specialedition h1 {
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 800;
+  color: solid black;
+}
+.specialedition p {
+  width: 50%;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: 300;
+  color: solid black;
+}
+
+.shop-now {
+  margin-top: 40px;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.shop-now:hover {
+  background-color: black;
+  color: white;
+}
+.specialedition-right {
+  display: flex;
+}
