@@ -1,0 +1,50 @@
+.newsletter {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  margin: 250px 100px 100px 100px;
+  padding-top: 20px;
+  width: 90%;
+  height: 50vh;
+  background-image: linear-gradient(
+    to top,
+    rgba(56, 50, 50, 0.3),
+    rgb(247, 87, 100)
+  );
+}
+.newsletter h1 {
+  padding-top: 30px;
+  font-weight: 600;
+}
+.newsletter p {
+  margin-top: -50px;
+  font-size: 25px;
+}
+.login {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+.login input {
+  width: 30%;
+  height: 55px;
+  border: none;
+  border-radius: 20px;
+}
+.login button {
+  width: 150px;
+  height: 55px;
+
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.login button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: rgb(247, 87, 100);
+}
