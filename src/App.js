@@ -16,14 +16,13 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route path="/" component={Store} />
+          <Route exact path="/" component={Store} />
           <Route path="/mens" component={MenPage} />
           <Route path="/womens" component={WomenPage} />
           <Route path="/kids" component={KidsPage} />
           <Route path="/cart" component={Cart} />
           <Route path="/login" component={LoginSignup} />
-          <Route path="/product" component={Product} />
-          <Route path=":productId" component={Product} />
+          <Route path="/product/:productId" component={Product} />
         </Switch>
       </BrowserRouter>
     </div>

@@ -34,7 +34,9 @@ const Footer = () => {
             {/* Whatsapp */}
           </div>
         </div>
+        <hr />
       </div>
+
       <div className="footer-copyright">
         <p>Copyright @2024 All Right Reserved.</p>
       </div>

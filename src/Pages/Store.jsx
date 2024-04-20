@@ -7,7 +7,6 @@ import NewsLetter from "../Components/Newsletter/NewsLetter";
 import Footer from "../Components/Footer/Footer";
 
 export const Store = () => {
-  console.log("STORE");
   return (
     <div>
       <Mainview />

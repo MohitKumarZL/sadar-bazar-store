@@ -1,6 +1,13 @@
 import React from "react";
 import StoreCategory from "./StoreCategory";
+import men_banner from "../Components/Assets/banner_mens.png";
 
-const MenPage = () => <StoreCategory category={"Men"} />;
+const MenPage = () => {
+  return (
+    <div>
+      <StoreCategory banner={men_banner} category={"men"} />
+    </div>
+  );
+};
 
 export default MenPage;

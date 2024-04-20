@@ -1,13 +1,11 @@
-.item {
-  width: 75px;
+.items img {
+  height: 350px;
 }
 
-.item p {
-  margin: 6px 0px;
-}
 .item-prices {
   display: flex;
   gap: 20px;
+  padding-bottom: 20px;
 }
 .item-prices-new {
   margin-left: 5px;

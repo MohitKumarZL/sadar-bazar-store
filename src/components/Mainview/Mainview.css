@@ -1,5 +1,10 @@
+/* .mainview {
+  background-image: url(D:\React\sadar-bazar-store\src\Components\Assets\mainview.png);
+  height: 500px;
+  width: 1400px;
+} */
 .mainview {
-  margin: 100px 50px 100px 50px;
+  margin: 20px 50px 20px 50px;
   padding-bottom: 50px;
   margin-bottom: 120px;
 }
