@@ -1,5 +1,11 @@
 .items img {
-  height: 350px;
+  height: auto;
+  width: 100%;
+}
+.image-container {
+  height: 380px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .item-prices {
