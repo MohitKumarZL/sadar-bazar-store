@@ -1,6 +1,5 @@
 import React from "react";
 import "./CSS/LoginSignup.css";
-import Footer from "../Components/Footer/Footer";
 export const LoginSignup = () => {
   return (
     <div className="loginsignup">
@@ -20,7 +19,6 @@ export const LoginSignup = () => {
           <p>By continuing, i agree to the terms of use & privacy policy.</p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -4,7 +4,6 @@ import Popular from "../Components/Popular/Popular";
 import SpecEdition from "../Components/Specialedition/SpecEdition";
 import NewCollection from "../Components/NewCollection/NewCollection";
 import NewsLetter from "../Components/Newsletter/NewsLetter";
-import Footer from "../Components/Footer/Footer";
 
 export const Store = () => {
   return (
@@ -14,7 +13,6 @@ export const Store = () => {
       <SpecEdition />
       <NewCollection />
       <NewsLetter />
-      <Footer />
     </div>
   );
 };

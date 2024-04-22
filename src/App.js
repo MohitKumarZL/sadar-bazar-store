@@ -8,6 +8,7 @@ import Product from "./Pages/Product";
 import MenPage from "./Pages/Men";
 import WomenPage from "./Pages/Women";
 import KidsPage from "./Pages/Kids";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/login" component={LoginSignup} />
           <Route path="/product/:productId" component={Product} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );
