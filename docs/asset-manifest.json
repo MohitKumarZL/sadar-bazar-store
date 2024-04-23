@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sadar-bazar-store/static/css/main.5a0182fa.css",
-    "main.js": "/sadar-bazar-store/static/js/main.86b03a6d.js",
+    "main.js": "/sadar-bazar-store/static/js/main.e656a64c.js",
     "static/js/453.4a157a02.chunk.js": "/sadar-bazar-store/static/js/453.4a157a02.chunk.js",
     "static/media/mainview.png": "/sadar-bazar-store/static/media/mainview.46030fab8b30ca65d0f7.png",
     "static/media/banner_kids.png": "/sadar-bazar-store/static/media/banner_kids.fff815a581793a7380fb.png",
@@ -46,11 +46,11 @@
     "static/media/product_35.png": "/sadar-bazar-store/static/media/product_35.073b8b5de77cfc979821.png",
     "index.html": "/sadar-bazar-store/index.html",
     "main.5a0182fa.css.map": "/sadar-bazar-store/static/css/main.5a0182fa.css.map",
-    "main.86b03a6d.js.map": "/sadar-bazar-store/static/js/main.86b03a6d.js.map",
+    "main.e656a64c.js.map": "/sadar-bazar-store/static/js/main.e656a64c.js.map",
     "453.4a157a02.chunk.js.map": "/sadar-bazar-store/static/js/453.4a157a02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a0182fa.css",
-    "static/js/main.86b03a6d.js"
+    "static/js/main.e656a64c.js"
   ]
 }

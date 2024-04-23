@@ -13,7 +13,7 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/sadar-bazar-store">
         <Navbar />
         <Switch>
           <Route exact path="/" component={Store} />
