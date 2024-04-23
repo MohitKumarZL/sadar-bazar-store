@@ -9,6 +9,7 @@ const Footer = () => {
   return (
     <div className="prefooter">
       <div className="footer">
+        <hr />
         <div className="footer-logo">
           <img src={footer_logo} alt="" />
           <p>SBS</p>

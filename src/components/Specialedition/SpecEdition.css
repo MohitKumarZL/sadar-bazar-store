@@ -44,3 +44,8 @@
   padding-right: 50px;
   display: flex;
 }
+
+.specialedition-right img {
+  height: 548px;
+  width: 375px;
+}

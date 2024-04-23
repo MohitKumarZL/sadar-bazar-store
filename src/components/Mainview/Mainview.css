@@ -1,15 +1,17 @@
-/* .mainview {
+.main {
   background-image: url(D:\React\sadar-bazar-store\src\Components\Assets\mainview.png);
-  height: 500px;
-  width: 1400px;
-} */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
 .mainview {
-  margin: 20px 50px 20px 50px;
-  padding-bottom: 50px;
-  margin-bottom: 120px;
+  margin: 0px;
+  padding: 60px 40px 100px 90px;
+  margin-bottom: 50px;
 }
 .mainleft {
-  margin: 75px 25px 25px 25px;
+  padding: 10px 10px;
 }
 .mainleft p:nth-child(odd) {
   width: 50%;
@@ -36,9 +38,10 @@
   display: inline-block;
   font-size: 25px;
   margin-top: 50px;
-  margin-left: 25px;
+  margin-left: 0px;
   padding: 10px 30px;
   cursor: pointer;
+  background: transparent;
 }
 
 .latest-btn:hover {
@@ -51,6 +54,7 @@
   margin-left: 30px;
   cursor: pointer;
   padding: 10px 30px;
+  background: transparent;
 }
 .shop-btn:hover {
   color: white;

@@ -13,8 +13,15 @@ const StoreCategory = (props) => {
         <p>
           <span>Showing 1-12</span> out of 36 Products
         </p>
-        <div className="storecategory-short">
-          Sort by <img src={dropdown_icon} alt="" />
+        <div className="dropdown">
+          <div className="storecategory-short">
+            Sort by <img src={dropdown_icon} alt="" />
+            <div className="dropdown-content">
+              <a href="#">Price</a>
+              <a href="#">Latest</a>
+              <a href="#">Size</a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="storecategory-products">
