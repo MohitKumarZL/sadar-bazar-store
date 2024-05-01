@@ -1,6 +1,5 @@
 import React from "react";
 import "./Mainview.css";
-import mainview from "../Assets/mainview.png";
 
 const Mainview = () => {
   return (

@@ -1,6 +1,11 @@
 .descriptionbox {
   margin: 120px 150px;
 }
+@media screen and (max-width: 768px) {
+  .descriptionbox {
+    margin: 0px;
+  }
+}
 .descriptionbox-navigator {
   display: flex;
 }

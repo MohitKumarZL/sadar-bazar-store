@@ -11,6 +11,11 @@
     rgb(247, 87, 100)
   );
 }
+@media screen and (max-width: 768px) {
+  .newsletter {
+    margin: 50px 20px;
+  }
+}
 .newsletter h1 {
   padding-top: 30px;
   margin-bottom: 0px;

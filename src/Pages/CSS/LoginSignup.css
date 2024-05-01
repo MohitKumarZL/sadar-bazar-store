@@ -3,8 +3,13 @@
   height: 700px;
   background-color: cadetblue;
   margin: 0px 0px 100px;
-
   padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .loginsignup {
+    margin: 0px;
+    height: 550px;
+  }
 }
 
 .loginsignup-container {
@@ -14,6 +19,14 @@
   margin: 60px 480px 200px 480px;
   padding: 40px 60px;
   color: white;
+}
+@media screen and (max-width: 768px) {
+  .loginsignup-container {
+    width: 360px;
+    margin: 15px;
+    padding: 10px;
+    height: 425px;
+  }
 }
 .loginsignup h1 {
   font-size: 30px;
@@ -33,6 +46,7 @@
   outline: none;
   border: 2px solid rgb(217, 214, 214);
 }
+
 .loginsignup-container button {
   margin-top: 15px;
   border: 1px solid rgb(121, 117, 117);

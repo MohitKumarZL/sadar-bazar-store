@@ -7,7 +7,13 @@
   width: 100%;
   overflow: hidden;
 }
-
+@media screen and (max-width: 768px) {
+  .image-container {
+    height: 215.06px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
 .item-prices {
   display: flex;
   gap: 20px;

@@ -1,9 +1,9 @@
 import React from "react";
-import Mainview from "../Components/Mainview/Mainview";
-import Popular from "../Components/Popular/Popular";
-import SpecEdition from "../Components/Specialedition/SpecEdition";
-import NewCollection from "../Components/NewCollection/NewCollection";
-import NewsLetter from "../Components/Newsletter/NewsLetter";
+import Mainview from "../components/Mainview/Mainview";
+import Popular from "../components/Popular/Popular";
+import SpecEdition from "../components/Specialedition/SpecEdition";
+import NewCollection from "../components/NewCollection/NewCollection";
+import NewsLetter from "../components/Newsletter/NewsLetter";
 
 export const Store = () => {
   return (

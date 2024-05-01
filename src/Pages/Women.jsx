@@ -1,6 +1,6 @@
 import React from "react";
 import StoreCategory from "./StoreCategory";
-import women_banner from "../Components/Assets/banner_women.png";
+import women_banner from "../components/Assets/banner_women.png";
 
 const WomenPage = () => {
   return (

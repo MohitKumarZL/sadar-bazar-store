@@ -1,6 +1,11 @@
 .cartitems {
   margin: 100px 150px;
 }
+@media screen and (max-width: 768px) {
+  .cartitems {
+    margin: 0px;
+  }
+}
 .cartitems hr {
   margin: 0px;
   height: 3px;

@@ -1,5 +1,4 @@
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Store from "./Pages/Store";
 import LoginSignup from "./Pages/LoginSignup";
@@ -8,12 +7,13 @@ import Product from "./Pages/Product";
 import MenPage from "./Pages/Men";
 import WomenPage from "./Pages/Women";
 import KidsPage from "./Pages/Kids";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/sadar-bazar-store">
+      <BrowserRouter>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Store} />
