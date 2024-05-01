@@ -13,8 +13,8 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Navbar basename="/sadar-bazar-store" />
+      <BrowserRouter basename="/sadar-bazar-store">
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Store} />
           <Route path="/mens" component={MenPage} />

@@ -10,11 +10,6 @@
   padding: 60px 40px 100px 90px;
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
-  .mainview {
-    padding: 50px 20px;
-  }
-}
 .mainleft {
   padding: 10px 10px;
 }
@@ -26,22 +21,11 @@
   font-size: 80px;
   font-weight: 600;
 }
-@media screen and (max-width: 768px) {
-  .mainleft p:nth-child(odd) {
-    font-size: 50px;
-    width: 100%;
-  }
-}
+
 .mainleft p:nth-child(even) {
   width: 50%;
   font-size: 40px;
   font-weight: 600;
-}
-@media screen and (max-width: 768px) {
-  .mainleft p:nth-child(even) {
-    font-size: 30px;
-    width: 100%;
-  }
 }
 .btn {
   display: flex;
@@ -74,12 +58,27 @@
   padding: 10px 30px;
   background: transparent;
 }
-@media screen and (max-width: 768px) {
-  .shop-btn {
-    margin-left: 0px;
-  }
-}
 .shop-btn:hover {
   color: white;
   background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .mainview {
+    padding: 50px 20px;
+  }
+
+  .mainleft p:nth-child(odd) {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  .mainleft p:nth-child(even) {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .shop-btn {
+    margin-left: 0px;
+  }
 }
