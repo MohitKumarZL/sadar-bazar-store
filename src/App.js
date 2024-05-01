@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
+        <Navbar basename="/sadar-bazar-store" />
         <Switch>
           <Route exact path="/" component={Store} />
           <Route path="/mens" component={MenPage} />
